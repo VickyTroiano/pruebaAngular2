@@ -15,4 +15,8 @@ export class AppComponent {
     apellido: 'Troiano',
     edad: 25
   }
+
+  getSuma(number1:number, number2:number):number{
+    return number1 + number2;
+  }
 }
