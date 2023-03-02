@@ -21,4 +21,13 @@ export class AppComponent {
   }
 
   deshabilitado = true;
+
+  numero = 0;
+  Incrementar(){
+    this.numero++;
+  }
+
+  Decrementar(){
+    this.numero--;
+  }
 }

@@ -9,8 +9,18 @@
   <p>¡Hola! Mi nombre es {{persona.nombre}} y tengo {{persona.edad}}</p>
   <p>La suma de 20 + 25 es {{getSuma(20,25)}}</p>
 </div>
+<div>
+  <button [disabled]="deshabilitado" class="btn btn-primary">Aceptar</button>
+</div>
+<!-- EVENT BINDING-->
+<div>
+  <button class="btn btn-primary m-2" (click)="Incrementar()" >Incrementar</button>
+  <button class="btn btn-primary" (click)="Decrementar()">Decrementar</button>
+  <h3>{{ numero }}</h3>
+</div>
 
-<button [disabled]="deshabilitado" class="btn btn-primary">Aceptar</button>
+
+
 <div>
   <img [src]="urlImg" alt="montanias"> <!-- Binding Property ejemplo 1-->
 </div>
