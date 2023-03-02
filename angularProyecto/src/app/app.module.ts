@@ -7,6 +7,9 @@ import { LoginComponenteComponent } from './components/login-componente/login-co
 import { FormComponenteComponent } from './components/form-componente/form-componente.component';
 import { NavbarComponenteComponent } from './components/navbar-componente/navbar-componente.component';
 
+
+//agregamos el modulo para usar la directiva ngModel
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +19,8 @@ import { NavbarComponenteComponent } from './components/navbar-componente/navbar
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule //lo agregamos en imports el FormModule
   ],
   exports: [
     NavbarComponenteComponent

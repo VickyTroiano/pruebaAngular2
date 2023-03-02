@@ -21,7 +21,7 @@ export class AppComponent {
   }
 
   deshabilitado = true;
-
+  //event binding
   numero = 0;
   Incrementar(){
     this.numero++;
@@ -30,4 +30,7 @@ export class AppComponent {
   Decrementar(){
     this.numero--;
   }
+
+  //two way binding
+  
 }
