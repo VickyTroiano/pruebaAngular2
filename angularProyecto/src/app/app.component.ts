@@ -32,5 +32,11 @@ export class AppComponent {
   }
 
   //two way binding
-  
+  numero1 = 0;
+  numero2 = 0;
+
+  suma():number{
+    return this.numero1 + this.numero2;
+  }
+
 }

@@ -22,9 +22,12 @@
  <!-- TWO WAY BINDING --> 
  <input type="text" [(ngModel)] = "numero" class="form-control" placeholder="Ingrese numero">
 
-
-
-
+<h4>Ingrese un numero para realizar su suma</h4>
+<br>
+ <input type="number" [(ngModel)] = "numero1" class="form-control" placeholder="Ingrese numero 1">
+ <br>
+ <input type="number" [(ngModel)] = "numero2" class="form-control" placeholder="Ingrese numero 2">
+<h5>Resultado:{{suma()}} </h5>
 
 <div>
   <img [src]="urlImg" alt="montanias"> <!-- Binding Property ejemplo 1-->
