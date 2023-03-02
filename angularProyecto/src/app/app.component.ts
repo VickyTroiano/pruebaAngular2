@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'angularProyecto';
   urlImg = '../assets/img/montania-1280x795.png'; //Binding Property ejemplo 1. Del componente al DOM
+  bienvenida = 'Bienvenidos a mi pagina';
 }
