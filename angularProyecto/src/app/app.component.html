@@ -1,6 +1,7 @@
 
 <div>
   <h1>Prueba {{bienvenida}}</h1>
+  <h2 [style.color]="color" [innerHTML]="bienvenida"></h2>
   <p>¡Hola! Mi nombre es {{persona.nombre}} y tengo {{persona.edad}}</p>
   <p>La suma de 20 + 25 es {{getSuma(20,25)}}</p>
 </div>
